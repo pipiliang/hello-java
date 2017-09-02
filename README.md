@@ -1,2 +1,2 @@
-# jconf
-Java configuration library for properties file.
+# RMock
+A simple RESTful api mocker.
