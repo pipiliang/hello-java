@@ -1,2 +1,2 @@
-# RMock
-A simple RESTful api mocker.
+# Mockility
+A flexible RESTful api mocker.
