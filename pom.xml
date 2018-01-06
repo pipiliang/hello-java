@@ -14,4 +14,11 @@
         <module>mockility-rest</module>
     </modules>
 
+    <repositories>
+        <repository>
+            <id>repo-spring</id>
+            <url>http://repo.spring.io/release/</url>
+        </repository>
+    </repositories>
+
 </project>

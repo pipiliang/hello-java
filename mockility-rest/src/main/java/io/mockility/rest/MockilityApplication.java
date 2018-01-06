@@ -24,6 +24,6 @@ public class MockilityApplication extends SpringBootServletInitializer implement
     @Override
     public void customize(ConfigurableEmbeddedServletContainer container) {
         container.setPort(14250);
-        container.setContextPath("/mockility/api/v1");
     }
+
 }
