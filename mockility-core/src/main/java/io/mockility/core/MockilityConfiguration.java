@@ -1,6 +1,6 @@
-package io.mockility.rest;
+package io.mockility.core;
 
-import io.mockility.rest.interceptor.MockedInterceptor;
+import io.mockility.core.interceptor.MockedInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

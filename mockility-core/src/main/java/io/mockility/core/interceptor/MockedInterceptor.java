@@ -1,4 +1,4 @@
-package io.mockility.rest.interceptor;
+package io.mockility.core.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

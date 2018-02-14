@@ -1,4 +1,4 @@
-package io.mockility.rest.entity;
+package io.mockility.manager.entity;
 
 /**
  * Don't worry be happy

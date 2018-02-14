@@ -1,4 +1,4 @@
-package io.mockility.rest;
+package io.mockility.core;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
