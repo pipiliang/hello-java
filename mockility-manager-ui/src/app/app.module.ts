@@ -4,15 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {NgZorroAntdModule} from "ng-zorro-antd";
+import {TriggerLayoutComponent} from "./layout/layout.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TriggerLayoutComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    NgZorroAntdModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

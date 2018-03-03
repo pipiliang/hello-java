@@ -19,7 +19,11 @@ public class CoreController {
 
     private static final Logger logger = getLogger(CoreController.class);
 
-    @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE}, value = "/**")
+    @RequestMapping(method = {RequestMethod.GET,
+            RequestMethod.POST,
+            RequestMethod.PUT,
+            RequestMethod.DELETE},
+            value = "/**")
     public String mock() {
         logger.info("some request is coming...");
         return "hello, this is a response from Mockility.";

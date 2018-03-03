@@ -1,2 +1,2 @@
 # Mockility
-A flexible RESTful api mocker.
+RESTful接口模拟器, A flexible RESTful api mocker.

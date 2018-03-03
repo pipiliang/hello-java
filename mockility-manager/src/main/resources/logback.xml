@@ -8,7 +8,7 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./logs/mockility-core.log</file>
+        <file>./logs/mockility-manager.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <FileNamePattern>./logs/mockility-%d{yyyyMMdd}.log.zip</FileNamePattern>
             <maxHistory>30</maxHistory>

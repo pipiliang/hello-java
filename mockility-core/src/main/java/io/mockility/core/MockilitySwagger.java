@@ -25,7 +25,7 @@ public class MockilitySwagger {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("io.mockility.rest.controller"))
+                .apis(RequestHandlerSelectors.basePackage("io.mockility.core.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
