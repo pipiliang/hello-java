@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 
 export class TriggerLayoutComponent {
     isCollapsed = false;
+
+    public test(){
+        console.log('create')
+    }
 }
