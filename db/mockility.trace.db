@@ -1,0 +1,3 @@
+2018-03-24 16:14:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TEST" already exists; SQL statement:
+CREATE TABLE Test(id VARCHAR(128),gmt_modify VARCHAR(1024),status VARCHAR(64),PRIMARY KEY(id)) [42101-197]

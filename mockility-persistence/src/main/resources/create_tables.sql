@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Test(
+ id VARCHAR(128),
+ status VARCHAR(64),
+ gmt_modify VARCHAR(1024),
+ PRIMARY KEY(id)
+);
