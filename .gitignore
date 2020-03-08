@@ -3,4 +3,3 @@ target
 *.iml
 logs
 db
-/mockility-manager/src/main/resources/static
